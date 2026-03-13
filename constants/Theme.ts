@@ -1,0 +1,66 @@
+import { MD3DarkTheme, MD3LightTheme } from 'react-native-paper';
+
+// Theme 1: Clean Aesthetics (High Contrast Monochrome) combined with Soft UI
+export const CustomLightTheme = {
+    ...MD3LightTheme,
+    colors: {
+        ...MD3LightTheme.colors,
+        primary: '#000000',
+        onPrimary: '#FFFFFF',
+        secondary: '#333333',
+        onSecondary: '#FFFFFF',
+        background: '#FFFFFF',
+        surface: '#FFFFFF',
+        onSurface: '#000000',
+        onBackground: '#000000',
+        surfaceVariant: '#F5F5F5',
+        onSurfaceVariant: '#666666',
+        outline: '#E5E5E5',
+        outlineVariant: '#F0F0F0',
+        primaryContainer: '#F2F2F2',
+        onPrimaryContainer: '#000000',
+        secondaryContainer: '#FAFAFA',
+        onSecondaryContainer: '#000000',
+        error: '#FF3B30',
+        elevation: {
+            level0: 'transparent',
+            level1: '#FFFFFF',
+            level2: '#FCFCFC',
+            level3: '#FAFAFA',
+            level4: '#F9F9F9',
+            level5: '#F7F7F7',
+        },
+    },
+};
+
+export const CustomDarkTheme = {
+    ...MD3DarkTheme,
+    colors: {
+        ...MD3DarkTheme.colors,
+        primary: '#FFFFFF',
+        onPrimary: '#000000',
+        secondary: '#CCCCCC',
+        onSecondary: '#000000',
+        background: '#000000',
+        surface: '#121212',
+        onSurface: '#FFFFFF',
+        onBackground: '#FFFFFF',
+        surfaceVariant: '#1E1E1E',
+        onSurfaceVariant: '#999999',
+        outline: '#333333',
+        outlineVariant: '#222222',
+        primaryContainer: '#2C2C2C',
+        onPrimaryContainer: '#FFFFFF',
+        secondaryContainer: '#1A1A1A',
+        onSecondaryContainer: '#FFFFFF',
+        error: '#FF453A',
+        elevation: {
+            level0: 'transparent',
+            level1: '#1C1C1C',
+            level2: '#222222',
+            level3: '#282828',
+            level4: '#2C2C2C',
+            level5: '#333333',
+        },
+    },
+};

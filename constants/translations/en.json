@@ -1,0 +1,138 @@
+{
+    "home": {
+        "title": "Looked",
+        "subtitle": "Your digital style assistant.",
+        "hero_title": "Style Analysis",
+        "hero_desc": "Upload your outfit, let AI comment immediately.",
+        "hero_badge": "AI STYLIST",
+        "hero_btn": "Discover",
+        "cta": "Analyze Now",
+        "actions": "Quick Actions",
+        "save_outfit": "Save Outfit",
+        "wardrobe": "Wardrobe",
+        "activities": "Activities",
+        "past_reviews": "Past Reviews",
+        "past_reviews_sub": "Take a look at your previous style analyses",
+        "saved_combinations": "Saved Outfits",
+        "saved_combinations_sub": "Outfits created with your wardrobe"
+    },
+    "tabs": {
+        "home": "Home",
+        "assistant": "Style Analyst",
+        "styles": "Style Guide",
+        "wardrobe": "Wardrobe",
+        "profile": "Profile"
+    },
+    "styles": {
+        "title": "Style Guide",
+        "subtitle": "Discover the style that fits you best.",
+        "trending": "Trending Styles",
+        "all": "All Styles",
+        "trending_badge": "TREND"
+    },
+    "profile": {
+        "title": "Account",
+        "theme_settings": "Theme Settings",
+        "language_settings": "Language Settings",
+        "logout": "Logout",
+        "theme": {
+            "system": "System",
+            "light": "Light",
+            "dark": "Dark"
+        },
+        "languages": {
+            "tr": "Turkish",
+            "en": "English"
+        }
+    },
+    "camera": {
+        "title": "Upload Outfit",
+        "description": "Snap a photo or pick from gallery, and let AI analyze your style.",
+        "take_photo": "Take Photo",
+        "pick_image": "Pick from Gallery",
+        "permission_needed": "Permission Needed",
+        "camera_permission_msg": "Camera permission is required to take photos.",
+        "gallery_permission_msg": "Gallery permission is required to pick photos.",
+        "error_camera": "Failed to open camera.",
+        "error_gallery": "Failed to open gallery."
+    },
+    "scan": {
+        "title": "Scan Full Outfit",
+        "desc": "Upload a full-body photo. AI will automatically find and crop items.",
+        "analyzing": "Detecting Items...",
+        "items_found": "{{count}} Items Found:",
+        "tip": "Tip: If crop is wrong, tap the image to edit.",
+        "edit": "Edit",
+        "save_x_items": "Save {{count}} Items",
+        "retry": "Retry",
+        "success": "Success",
+        "saved_msg": "{{count}} items added to your wardrobe!",
+        "error_analysis": "Analysis Error",
+        "error_save": "Save Error"
+    },
+    "wardrobe": {
+        "title": "My Wardrobe",
+        "items": "Items",
+        "stats": "{{count}} Items • Safe in Cloud",
+        "all": "All",
+        "empty_title": "No Items",
+        "empty_desc": "Your wardrobe is currently empty.",
+        "add_item_title": "Add Item Manually",
+        "edit_item": "Edit Item",
+        "item_name": "Item Name",
+        "category": "Category",
+        "save": "Save",
+        "delete": "Delete",
+        "delete_confirm_title": "Delete Item",
+        "delete_confirm_msg": "Are you sure?",
+        "cancel": "Cancel",
+        "empty_image": "No Image Selected",
+        "magic_clean": "Magic Clean",
+        "magic_clean_desc": "Remove background and crop perfectly",
+        "scan_all": "Scan with AI",
+        "categories": {
+            "Tops": "Tops",
+            "Bottoms": "Bottoms",
+            "Shoes": "Shoes",
+            "Outerwear": "Outerwear",
+            "Accessories": "Accessories"
+        }
+    },
+    "analysis": {
+        "title": "Style Analysis",
+        "analyzing": "Analyzing your style...",
+        "score_title": "Style Score",
+        "first_impression": "✨ First Impression",
+        "critique": "💡 Areas for Improvement",
+        "conclusion": "🎯 Final Word",
+        "try_new_photo": "Try New Photo"
+    },
+    "combiner": {
+        "title": "Outfit Assistant",
+        "tab_manual": "Mix & Match",
+        "tab_auto": "Smart Suggest",
+        "current_weather": "Weather: {{temp}}°C, {{desc}}",
+        "manual_desc": "Tap slots to select items. (Starred are required)",
+        "auto_title": "Where are you going?",
+        "auto_desc": "Type or select the occasion.",
+        "input_placeholder": "e.g., Walk in rainy weather",
+        "input_label": "Or type your own...",
+        "btn_analyze": "Analyze Outfit",
+        "btn_create": "Create Outfit",
+        "analyzing": "Analyzing...",
+        "magic_working": "Working Magic...",
+        "result_stylist": "Stylist Feedback",
+        "btn_new": "Start New Mix",
+        "pick_item": "Select {{category}}",
+        "empty_category": "You have no items in this category.",
+        "close": "Close",
+        "contexts": {
+            "Casual": "Casual",
+            "Office": "Office",
+            "Dinner": "Dinner",
+            "Sport": "Sport",
+            "Party": "Party",
+            "First Date": "First Date"
+        }
+    }
+}
