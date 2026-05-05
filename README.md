@@ -2,11 +2,9 @@
 
 <br/>
 
-<img src="./assets/images/icon.png" alt="Looked Logo" width="120" style="border-radius: 24px"/>
+<img src="./ScreenShots/logo.png" alt="Looked Logo" width="280"/>
 
 <br/><br/>
-
-# LOOKED
 
 ### Your Personal AI-Powered Digital Wardrobe
 
@@ -19,8 +17,12 @@
 
 <br/>
 
+[<img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="200"/>](https://play.google.com/store/apps/details?id=com.egebo.looked&hl=tr)
+
+<br/>
+
 > **This repository is a public architecture & UI showcase.**
-> The source code shared here reflects the app's structure and design. Some proprietary production logic is kept private to protect the commercial integrity of the live version.
+> Some proprietary production logic is kept private to protect the commercial integrity of the live version.
 
 <br/>
 
@@ -109,42 +111,14 @@ services/
 
 context/
 ├── AuthContext          # Firebase Auth state + async persistence
+├── UserProfileContext   # Firestore user profile
 ├── ThemeContext         # Light/Dark preference (AsyncStorage)
-├── LanguageContext      # TR/EN preference (AsyncStorage)
-└── UserProfileContext   # Firestore user profile
+└── LanguageContext      # TR/EN preference (AsyncStorage)
 
 constants/
 ├── Theme.ts             # MD3 light & dark theme definitions
 └── translations/        # en.json, tr.json
 ```
-
----
-
-## 🚀 Getting Started
-
-> **Prerequisites:** Node.js 20+, Expo CLI, a Firebase project, and a Gemini API key.
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/Egebo/Looked.git
-cd Looked
-
-# 2. Install dependencies
-npm install
-
-# 3. Configure environment variables
-cp .env.example .env
-# → Fill in EXPO_PUBLIC_GEMINI_API_KEY and EXPO_PUBLIC_FIREBASE_* values
-
-# 4. Start the development server
-npx expo start
-```
-
----
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
