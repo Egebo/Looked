@@ -45,7 +45,16 @@ venv/
 
 # sensitive and log files
 google-services.json
+GoogleService-Info.plist
 *.txt
 .env
 .env.local
 .env.*.local
+
+# AI assistant config (contains private deployment info)
+CLAUDE.md
+.claude/
+brain/
+
+# Java heap dumps
+*.hprof

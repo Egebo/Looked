@@ -1,78 +1,155 @@
-# Looked 👗
-
 <div align="center">
 
-**[EN] Your Personal AI-Powered Digital Wardrobe Assistant.**  
-**[TR] Kişisel Yapay Zeka Destekli Dijital Gardırop Asistanınız.**
+<br/>
 
-[![React Native](https://img.shields.io/badge/React_Native-0.81-61DAFB?logo=react&logoColor=white)](https://reactnative.dev/)
-[![Expo](https://img.shields.io/badge/Expo-54-000020?logo=expo&logoColor=white)](https://expo.dev/)
-[![Firebase](https://img.shields.io/badge/Firebase-12-FFCA28?logo=firebase&logoColor=white)](https://firebase.google.com/)
-[![Gemini AI](https://img.shields.io/badge/Gemini_AI-2.5_Flash-4285F4?logo=google-gemini&logoColor=white)](https://ai.google.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+<img src="./assets/images/icon.png" alt="Looked Logo" width="120" style="border-radius: 24px"/>
+
+<br/><br/>
+
+# LOOKED
+
+### Your Personal AI-Powered Digital Wardrobe
+
+[![React Native](https://img.shields.io/badge/React_Native-0.81-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactnative.dev/)
+[![Expo](https://img.shields.io/badge/Expo-54-000020?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
+[![Firebase](https://img.shields.io/badge/Firebase-12-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![Gemini AI](https://img.shields.io/badge/Gemini_2.5_Flash-4285F4?style=for-the-badge&logo=google-gemini&logoColor=white)](https://ai.google.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+<br/>
+
+> **This repository is a public architecture & UI showcase.**
+> The source code shared here reflects the app's structure and design. Some proprietary production logic is kept private to protect the commercial integrity of the live version.
+
+<br/>
+
+*"Where Fashion Meets Technology"*
 
 </div>
 
 ---
 
-> [!NOTE]  
-> **[EN]** This repository is a **Public Architecture & UI Showcase**. Some proprietary production logic and core algorithms are kept private to protect the commercial integrity of the version currently live on the Play Store.  
-> **[TR]** Bu depo, projenin **Mimari ve Arayüz Gösterimi** (Showcase) amaçlıdır. Play Store'da yayında olan sürümün ticari bütünlüğünü korumak adına, bazı özel algoritmalar ve üretim aşaması mantıkları bu açık kaynak sürümde kısıtlanmıştır.
+## 📱 Screenshots
+
+<div align="center">
+
+| Home — Light | Home — Dark | Wardrobe |
+|:---:|:---:|:---:|
+| <img src="./ScreenShots/Screenshot_20260402_000300_Looked.jpg" width="220"/> | <img src="./ScreenShots/Screenshot_20260402_000514_Looked.jpg" width="220"/> | <img src="./ScreenShots/Screenshot_20260402_000500_Looked.jpg" width="220"/> |
+
+| Wardrobe — Dark | Upload Outfit | Outfits |
+|:---:|:---:|:---:|
+| <img src="./ScreenShots/Screenshot_20260402_000521_Looked.jpg" width="220"/> | <img src="./ScreenShots/Screenshot_20260402_000304_Looked.jpg" width="220"/> | <img src="./ScreenShots/Screenshot_20260402_000503_Looked.jpg" width="220"/> |
+
+| Calendar | Outfits — Dark | Calendar — Dark |
+|:---:|:---:|:---:|
+| <img src="./ScreenShots/Screenshot_20260402_000506_Looked.jpg" width="220"/> | <img src="./ScreenShots/Screenshot_20260402_000536_Looked.jpg" width="220"/> | <img src="./ScreenShots/Screenshot_20260402_000539_Looked.jpg" width="220"/> |
+
+</div>
 
 ---
 
-## 🌟 Overview / Genel Bakış
+## ✨ Features
 
-**[EN]**  
-**Looked** is a cutting-edge mobile application designed to revolutionize how you interact with your wardrobe. By leveraging **Artificial Intelligence (Google Gemini)** and modern cloud infrastructure, Looked transforms your physical closet into a digital, searchable, and intelligent experience.
+### 👕 Smart Wardrobe Management
+- **AI Auto-Tagging** — Gemini 2.5 Flash identifies and categorizes items automatically from photos
+- **Background Removal** — High-precision automated background removal for clean item thumbnails
+- **Category Filtering** — Browse by Tops, Bottoms, Shoes, Accessories, and more
+- **Digital Cataloging** — Every piece in your closet, searchable and organized
 
-**[TR]**  
-**Looked**, gardırobunuzla olan etkileşiminizi kökten değiştirmek için tasarlanmış modern bir mobil uygulamadır. **Google Gemini Yapay Zekası** ve modern bulut altyapısını kullanan Looked, fiziksel dolabınızı dijital, taranabilir ve akıllı bir deneyime dönüştürür.
+### 🧙 AI Style Consulting
+- **Outfit Analysis** — Upload any outfit and receive an instant style score (0–100) with professional feedback
+- **AI Outfit Generator** — Auto-generate outfit combinations from your wardrobe tailored to any occasion (Casual, Office, Wedding, etc.)
+- **Harmony Check** — Validate if multiple items work well together before stepping out
 
----
+### 📅 Outfit Calendar
+- **Plan Ahead** — Schedule outfits for upcoming days
+- **Style History** — Review what you wore and when
 
-## ✨ Key Features / Temel Özellikler
-
-### 👕 Smart Closet Management / Akıllı Gardırop Yönetimi
-- **Digital Cataloging / Dijital Kataloglama**: Organize your clothes by categories / Kıyafetlerinizi kategorilere göre düzenleyin.
-- **Smart Detection / Akıllı Tespit**: AI identifies and categorizes each piece of clothing from photos / Yapay zeka, fotoğraflardan kıyafetleri tanır ve kategorize eder.
-- **Background Removal / Arka Plan Silme**: Automated high-precision background removal for item photos / Kıyafet fotoğrafları için otomatik ve yüksek hassasiyetli arka plan silme.
-
-### 🧙‍♂️ AI Fashion Consulting / Yapay Zeka Moda Danışmanı
-- **Style Analysis / Stil Analizi**: Receive friendly and professional feedback on your outfits / Kombinleriniz hakkında samimi ve profesyonel geri bildirimler alın.
-- **Outfit Suggestion / Kombin Önerisi**: AI-generated combinations from your existing wardrobe / Gardırobunuzdaki parçalardan yapay zeka tarafından oluşturulan kombinler.
-- **Context-Aware Advice / Bağlama Göre Tavsiye**: Tailored advice for every occasion (Wedding, Casual, Office, etc.) / Her duruma özel (Düğün, Günlük, Ofis vb.) kişiselleştirilmiş tavsiyeler.
-
----
-
-## 🛠 Tech Stack / Teknolojiler
-
-- **Frontend**: React Native / Expo
-- **Backend & Auth**: Firebase (Authentication, Firestore, Storage)
-- **AI Engine**: Google Gemini 2.5 Flash
-- **Styling**: React Native Paper / Lucide Icons
-- **Utility**: Python (Image Processing Automation)
+### 🌗 Full Bilingual & Theming Support
+- **Turkish / English** — All UI strings and AI responses are fully bilingual
+- **Light & Dark Mode** — Seamless Material Design 3 theming with a curated Terracotta–Sage–Champagne palette
 
 ---
 
-## 🚀 Setup & Installation / Kurulum
+## 🛠 Tech Stack
 
-**[EN]**
-1. Clone the repo: `git clone https://github.com/Egebo/Looked.git`
-2. Install dependencies: `npm install`
-3. Configure environment: Copy `.env.example` to `.env` and add your keys.
-4. Start the app: `npx expo start`
-
-**[TR]**
-1. Depoyu klonlayın: `git clone https://github.com/Egebo/Looked.git`
-2. Bağımlılıkları yükleyin: `npm install`
-3. Yapılandırma: `.env.example` dosyasını `.env` olarak kopyalayın ve anahtarlarınızı ekleyin.
-4. Uygulamayı başlatın: `npx expo start`
+| Layer | Technology |
+|---|---|
+| **Framework** | React Native + Expo Router (file-based routing) |
+| **Language** | TypeScript |
+| **UI Library** | React Native Paper (Material Design 3) |
+| **AI Engine** | Google Gemini 2.5 Flash |
+| **Auth** | Firebase Authentication (Email + Google Sign-In) |
+| **Database** | Cloud Firestore |
+| **Storage** | Firebase Storage |
+| **State** | React Context API (Auth, Theme, Language, UserProfile) |
+| **i18n** | i18next |
+| **Build & Deploy** | Expo Application Services (EAS) |
 
 ---
 
-<p align="center">
-  Developed by <b>Egemen Bozca</b>
-  <br>
-  <i>"Where Fashion Meets Technology"</i>
-</p>
+## 🏗 Architecture Overview
+
+```
+app/
+├── _layout.tsx          # Root: AuthProvider → LanguageProvider → ThemeProvider → UserProfileProvider
+├── auth/                # Login, Register screens
+└── (tabs)/              # Main app — floating bottom bar navigation
+    ├── index.tsx        # Home dashboard
+    ├── camera.tsx       # Upload & AI analysis
+    ├── wardrobe.tsx     # Digital wardrobe (Items / Outfits / Calendar)
+    └── profile.tsx      # User profile & settings
+
+services/
+├── ai.ts                # All Gemini calls: analyzeOutfit(), suggestOutfitCombination(), autoCreateOutfit()
+├── storage.ts           # Firestore + Firebase Storage operations
+└── firebase.ts          # Firebase singleton initialization
+
+context/
+├── AuthContext          # Firebase Auth state + async persistence
+├── ThemeContext         # Light/Dark preference (AsyncStorage)
+├── LanguageContext      # TR/EN preference (AsyncStorage)
+└── UserProfileContext   # Firestore user profile
+
+constants/
+├── Theme.ts             # MD3 light & dark theme definitions
+└── translations/        # en.json, tr.json
+```
+
+---
+
+## 🚀 Getting Started
+
+> **Prerequisites:** Node.js 20+, Expo CLI, a Firebase project, and a Gemini API key.
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Egebo/Looked.git
+cd Looked
+
+# 2. Install dependencies
+npm install
+
+# 3. Configure environment variables
+cp .env.example .env
+# → Fill in EXPO_PUBLIC_GEMINI_API_KEY and EXPO_PUBLIC_FIREBASE_* values
+
+# 4. Start the development server
+npx expo start
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+
+Developed by **Egemen Bozca**
+
+</div>
